@@ -154,12 +154,19 @@ section.contact div img.youtube {
     width: 100px;
 }
 
+section.contact div img.github {
+    height: 70px;
+    width: 70px;
+    padding: 15px;
+    padding-right: 17px;
+}
+
 section.contact div h4 {
     color: black;
     text-decoration: none;
 }
 
-h4.discord, h4.youtube {
+h4.discord, h4.youtube, h4.github {
     padding-top: 10px;
 }
 
