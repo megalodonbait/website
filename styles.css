@@ -101,6 +101,7 @@ h3.gallery {
 
 ul.bulleted_list {
     padding: 10px;
+    padding-bottom: 20px;
     color: black;
     display: flex;
     flex-direction: column;
