@@ -206,6 +206,7 @@ img.work-image {
     width: 200px;
     height: auto;
     margin: 20px;
+    border-radius: 10px;
 }
 
 img.work-image:hover {
