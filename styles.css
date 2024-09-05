@@ -162,12 +162,18 @@ section.contact div img.github {
     padding-right: 17px;
 }
 
+section.contact div img.guildtag {
+    height: 100px;
+    width: 100px;
+    padding-right: 3px;
+}
+
 section.contact div h4 {
     color: black;
     text-decoration: none;
 }
 
-h4.discord, h4.youtube, h4.github {
+h4.discord, h4.youtube, h4.github, h4.guildtag {
     padding-top: 10px;
 }
 
