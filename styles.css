@@ -41,7 +41,7 @@ section.cat-box div img {
 section.cat-box div img:hover {
     width: 100%;
     border-radius: 10px;
-    box-shadow: rgb(50, 50, 50) 0 0 10px;
+    box-shadow: rgb(23, 23, 23) 0 0 15px;
 }
 
 ul {
