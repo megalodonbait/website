@@ -1,0 +1,193 @@
+body {
+    background: rgb(80, 80, 80);
+    color: black;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    background-image: url("images/new_forest/IMG_2341.JPG");
+    background-size: 100%;
+    background-position: 0px 40%;
+    color: black;
+    padding: 30px;
+    text-align: center;
+    height: 250px;
+    border: solid black;
+    border-width: 10px;
+}
+
+section.cat-box {
+    background: rgb(80, 80, 80);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+section.cat-box div {
+    background: rgb(80, 80, 80);
+    margin: 5px;
+    object-fit: cover;
+    width: 33.33%;
+    border-radius: 10px;
+}
+
+section.cat-box div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    
+}
+section.cat-box div img:hover {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgb(50, 50, 50) 0 0 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px
+}
+
+section.main-body {
+    display: flex;
+    flex-direction: column;
+}
+
+section.picture-page {
+    display: flex;
+    flex-direction: row;
+}
+
+section.picture-page div {
+    background: rgb(80, 80, 80);
+    padding: 10px;
+    object-fit: cover;
+    width: 50%;
+}
+
+section.picture-page div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+section.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
+section.gallery div {
+    padding: 5px;
+    object-fit: cover;
+    width: 33%;
+    padding-bottom: 30px;
+}
+
+section.gallery div img{
+    width: 100%;
+    height: auto;
+}
+
+h3.gallery {
+    padding: 10px;
+}
+
+ul.bulleted_list {
+    padding: 10px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+ul.bulleted_list li {
+    padding: 2px;
+}
+
+section.contact {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section.contact div {
+    display: flex;
+    flex-direction: row;
+    background: rgb(70, 70, 70);
+    border: solid black;
+    border-width: 2px;
+    margin: 5px 10px;
+    width: 300px;
+}
+
+section.contact div:hover {
+    box-shadow: rgb(48, 48, 48) 0 0 10px;
+}
+
+section.contact a {
+    width: 300px;
+}
+
+section.contact div img.discord {
+    height: 100px;
+    width: 100px;
+    padding-right: 5px;
+}
+
+section.contact div img.steam {
+    height: 70px;
+    width: 70px;
+    padding: 15px;
+    padding-right: 17px;
+}
+
+section.contact div img.youtube {
+    height: 100px;
+    width: 100px;
+}
+
+section.contact div h4 {
+    color: black;
+    text-decoration: none;
+}
+
+h4.discord, h4.youtube {
+    padding-top: 10px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 20px 30px;
+}
+
+a.header {
+    color: black;
+    text-decoration: none;
+}
+
+a.header:hover {
+    color: rgb(80, 80, 80);
+}
+
+a:link { 
+    text-decoration: none; 
+  } 
+a:visited { 
+    text-decoration: none; 
+  } 
+a:hover { 
+    text-decoration: none; 
+  } 
+a:active { 
+    text-decoration: none; 
+  }
