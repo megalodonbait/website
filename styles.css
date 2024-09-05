@@ -228,3 +228,10 @@ p.subtext {
     font-size: medium;
     width: 300px;
 }
+
+img.gallery {
+    width: 500px;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+}
