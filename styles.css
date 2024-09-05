@@ -211,3 +211,18 @@ img.work-image {
 img.work-image:hover {
     box-shadow: rgb(38, 38, 38) 0 0 15px;
 }
+
+div.work {
+    display: flex;
+    flex-direction: row;
+}
+
+div.work h3 {
+    margin-top: 20px;
+}
+
+p.subtext {
+    font-weight: normal;
+    font-size: medium;
+    width: 300px;
+}
