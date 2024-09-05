@@ -230,8 +230,17 @@ p.subtext {
 }
 
 img.gallery {
-    width: 500px;
+    width: 800px;
     height: auto;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
     border-radius: 10px;
+}
+
+img.gallery:last-child {
+    margin-bottom: 10px;
+}
+
+img.gallery:hover {
+    box-shadow: rgb(38, 38, 38) 0 0 15px;
 }
