@@ -197,3 +197,17 @@ a:hover {
 a:active { 
     text-decoration: none; 
   }
+
+section.work-box {
+    height: auto;
+}
+
+img.work-image {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+img.work-image:hover {
+    box-shadow: rgb(38, 38, 38) 0 0 10px;
+}
