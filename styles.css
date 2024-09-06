@@ -268,3 +268,7 @@ ul.bulleted_list li {
     padding-bottom: 5px;
     width: fit-content;
 }
+
+section.portfolio {
+    margin-left: 10px;
+}
