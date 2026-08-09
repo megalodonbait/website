@@ -168,6 +168,13 @@ section.contact div img.guildtag {
     padding-right: 3px;
 }
 
+section.contact div img.linkedin {
+    height: 100px;
+    width: 100px;
+    padding-right: 3px;
+}
+
+
 section.contact div img.wikipedia {
     height: 80px;
     width: 80px;
